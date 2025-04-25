@@ -1,0 +1,106 @@
+.CEOAbout{
+    background: white;
+
+    background-color: #7aec93b0;
+    padding-bottom: 2%;
+
+}
+.aboutContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-width: 320px;
+
+}
+
+.CEOimage{
+    background-color: #ffffff;
+    padding: 2%;
+    margin-top: 2%;
+
+    width: 50%;
+    height: 30%;
+
+    border-radius: 2%;
+}
+
+.CEOimage img{
+    height:400px;
+    width: 400px;
+    float: right;
+
+
+}
+
+.CEOimage p{
+    font-size: 1.2rem;
+    line-height: 2;
+
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.ceotitle{
+    color: rgb(0, 109, 45);
+}
+
+.btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 0.3%;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10%;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    margin-right: 3%;
+  }
+.btn:hover {
+    background-color: #218838;
+  }
+
+  @media (max-width:840px) {
+    .CEOimage h1{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .CEOimage{
+        padding: 5%;
+        background-color: #ffffff;
+
+    }
+    .CEOimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-style: none;
+
+        width: 80%;
+    }
+    .CEOimage img{
+        float: none;
+        margin-top: 5%;
+        border-style: solid;
+        border-radius: 360px;
+        height: 250px;
+        width: 250px;
+    }
+
+}
+
+@media (max-width:390px) {
+
+    .CEOimage img{
+
+        width: 200px;
+        height: 200px;
+
+    }
+}
